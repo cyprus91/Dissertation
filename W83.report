@@ -1,0 +1,47 @@
+Loading and analyzing oligo file W83_probes.seq...
+  ==> Use the better nonlinear salt effect equation
+  ==> Use 48 CPU/Core(s) for slower computation
+
+Picky parameter settings used for this examination:
+maximum_oligo_size = 50
+minimum_oligo_size = 20
+maximum_match_len = 18
+minimum_match_len = 8
+minimum_similarity = 66
+minimum_temp_separation = 5
+DNA_concentration = 1
+Salt_concentration = 50
+forward_strand_only = 1
+
+Job started on Fri 17 Apr 2015 03:10:41 PM CDT
+Step 1 of 5: Constructing the suffix array...
+2 target sequences.
+2 total sequences.
+4686954 total DNA bases and sequence markers.
+2343476 is the longest target sequence length.
+2343476 is the shortest target sequence length.
+Step 2 of 5: Computing invert and LCP arrays...
+6404 is the longest common overlap region length among sequences.
+49.81 is the average common overlap region length among sequences.
+Step 3 of 5: Reading input probe sequences...
+409807 input probe sequences identified.
+20899815 total DNA bases and probe end markers read.
+Step 4 of 5: Examining probes on target sequences...
+8 probes have no identifiable targets in the gene sets.
+21773 probes violate target/nontarget temperature separation limit.
+Step 5 of 5: Analyzing probe characteristics...
+50 is the longest oligo probe length.
+46 is the shortest oligo probe length.
+369811 unique probes targeting 2 sequences
+18215 shared probes targeting 0 additional sequences.
+30 maximum number of sequences sharing the same oligo probe.
+6.09 average number of sequences sharing the same oligo probe.
+85.07 C is the maximum estimated probe-nontarget temperature.
+48.75 C is the minimum estimated probe-target temperature.
+-36.32 C is the closest estimated temperature separation.
+50.09 C is the medium estimated probe-nontarget temperature.
+71.03 C is the medium estimated probe-target temperature.
+20.93 C is the temperature separation between the mediums.
+388026 total useful oligo probes found to target 2 sequences.
+Job completed on Fri 17 Apr 2015 03:14:23 PM CDT
+Total time elapsed 00h:03m:42s.
